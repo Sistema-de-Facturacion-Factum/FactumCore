@@ -1,1 +1,30 @@
+# Alcance del Proyecto - Factum
+
+## Propósito
+Desarrollar un sistema de facturación web modular que permita gestionar clientes, productos, cotizaciones y facturas, aplicando arquitectura en capas y APIs REST.
+
+## Entregables
+- Entregable 1: Arquitectura del sistema y diseño JSON.
+- Entregable 2: Casos de uso y reglas de negocio.
+- Entregable 3: Repositorios en GitHub y gestión de proyectos.
+
+## Funcionalidades principales
+- Crear y consultar clientes.
+- Registrar productos y stock mínimo.
+- Generar cotizaciones y facturas.
+- Autenticación con JWT para usuarios internos.
+
+## Cronograma
+| Semana | Actividad |
+|---------|------------|
+| 1 | Crear repositorio principal y estructura |
+| 2 | Crear historias de usuario y tablero |
+| 3 | Implementar módulo de clientes |
+| 4 | Implementar productos y facturas |
+| 5 | Integración y documentación final |
+
+## Criterios de éxito
+- Repositorio bien estructurado.
+- Issues organizados por historia de usuario.
+- Project con milestones y etiquetas.
 
