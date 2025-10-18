@@ -12,3 +12,50 @@ Este repositorio centraliza la documentación y la integración de los módulos:
 
 ## 🧩 Arquitectura del Sistema
 
+┌──────────────────────┐
+│ API (Controllers) │ → Endpoints REST
+└─────────┬────────────┘
+│
+┌─────────▼────────────┐
+│ Services Layer │ → Lógica de negocio
+└─────────┬────────────┘
+│
+┌─────────▼────────────┐
+│ Repository Layer │ → Acceso a datos (MySQL)
+└─────────┬────────────┘
+│
+┌─────────▼────────────┐
+│ Domain Models │ → Entidades: Cliente, Producto, Factura, Usuario
+└──────────────────────┘
+
+## 📁 Estructura del Repositorio
+
+FactumCore/
+├── src/
+│ ├── controllers/
+│ ├── services/
+│ ├── models/
+│ ├── repositories/
+│ └── routes/
+├── docs/
+│ ├── Entregable1.pdf
+│ ├── Parcial_WS.pdf
+│ └── Alcance_Factum.md
+
+
+---
+
+## 🔗 Trazabilidad entre Entregables
+
+| Corte | Documento | Contenido |
+|-------|------------|-----------|
+| 1° | Entregable 1 | Arquitectura, diseño y justificación REST |
+| 2° | Parcial WS | Casos de uso y flujos de datos |
+| 3° | GitHub | Integración total, Issues y gestión del proyecto |
+
+---
+
+## 👤 Autor
+
+**Nicolás José Machado Martínez**  
+Unidad Tecnológica de Santander — 2025
