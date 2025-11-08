@@ -45,16 +45,6 @@ FactumCore/
 
 ---
 
-## 🔗 Trazabilidad entre Entregables
-
-| Corte | Documento | Contenido |
-|-------|------------|-----------|
-| 1° | Entregable 1 | Arquitectura, diseño y justificación REST |
-| 2° | Parcial WS | Casos de uso y flujos de datos |
-| 3° | GitHub | Integración total, Issues y gestión del proyecto |
-
----
-
 ## 👤 Autor
 
 **Nicolás José Machado Martínez**  
